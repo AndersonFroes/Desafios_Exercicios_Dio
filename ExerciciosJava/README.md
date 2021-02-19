@@ -5,6 +5,7 @@ Aqui você encontra todos os exercícios que realizei da [Digital Innovation One
 Os códigos estão rodando normalmente na plataforma da DIO.
 
 <h3>Implementando Collections e Streams com Java (Excercício 1)</h3>
+
 - Crie uma lista e execute as seguintes operações
 - Adicione 5 nomes: Juliana, Pedro, Carlos, Larissa e João.
 - Navegue na lista exibindo cada nome no console.
@@ -20,6 +21,7 @@ Os códigos estão rodando normalmente na plataforma da DIO.
 - Verifique se a lista esta vazia.
 
 <h3>Implementando Collections e Streams com Java (Excercício 2)</h3>
+
 - Crie uma fila e execute as seguintes operações
 - Adicione 5 nomes: Juliana, Pedro, Carlos, Larissa e João 
 - Navegue na lista exibindo cada nome no console 
@@ -32,6 +34,7 @@ Os códigos estão rodando normalmente na plataforma da DIO.
 - Verifique se o nome Carlos esta na lista 
 
 <h3>Implementando Collections e Streams com Java (Excercício 3)</h3>
+
 - Crie um Set e execute as seguintes operações
 - Adicione 5 numeros inteiros: 3, 88, 20, 44, 3 
 - Navegue no set exibindo cada numero no console 
@@ -41,6 +44,7 @@ Os códigos estão rodando normalmente na plataforma da DIO.
 - Verifique se o set esta vazio 
 
 <h3>Implementando Collections e Streams com Java (Excercício 4)</h3>
+
 - Crie um Map e execute as seguintes operações:
 - Adicione os 26 estados Brasileiros no map, onde a sigla será a chave e o nome do estado o valor 
 - Remova o estado de Minas Gerais 
