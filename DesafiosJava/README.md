@@ -5,6 +5,7 @@ Aqui você encontra todos os desafios que realizei da [Digital Innovation One](h
 Os códigos estão rodando normalmente na plataforma da DIO.
 
 <h3>Solucionando problemas básicos em Java (Multiplicação Simples)</h3>
+
 Desafio
 - Você receberá dois valores inteiros. 
 - Faça a leitura e em seguida calcule o produto entre estes dois valores. 
@@ -17,6 +18,7 @@ Saída
 - Exiba a variável PROD conforme exemplo abaixo, tendo obrigatoriamente um espaço em branco antes e depois da igualdade.
 
 <h3>Solucionando problemas básicos em Java (Menor e Posição)</h3>
+
 Desafio
 - Desenvolva um código que leia um valor E. 
 - Este E será o tamanho de um vetor X[E]. 
@@ -31,6 +33,7 @@ Saída
 - A segunda linha apresenta a mensagem “Posicao:” seguido de um espaço e da posição do vetor na qual se encontra o menor valor lido, lembrando que o vetor inicia na posição zero.
 
 <h3>Solucionando problemas básicos em Java (Números Ímpares)</h3>
+
 Desafio
 - Leia um valor inteiro X (1 <= X <= 1000). 
 - Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso.
