@@ -1,9 +1,9 @@
-package DesafiosJava; // esse código você deve alterar conforme sua pasta
+package DesafiosJava; // esse código você deve retirar para rodar na plataforma Dio
 
 import java.io.IOException;
 import java.util.Scanner;
 
-// troque essa classe para public class
+// troque essa classe para public class para rodar na plataforma Dio
 class MinhaSegundaClasse {
 
     public static void main(String[] args) throws IOException {
