@@ -4,45 +4,28 @@ import java.util.Scanner;
 
 public class Entrevista_Embaracosa {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
-        String line = null;
-        new StringBuilder();
-        //StringBuilder greatestSubstring = new StringBuilder(); // Caso o código da linha superior não funcione, comente esse e descomente esse aqui!!!
 
-        while (scanner.hasNextLine()) {
-            line = scanner.nextLine().trim().toLowerCase();
-            String possiblyRepeatedPart = null;
-            String possiblyEqualStr = null;
-            String longestRepeatedStr = line;
-            int factor = 1;
-
-            for (int i = line.length() - 1; i >= (line.length() / 2); --i, ++factor) {
-                if (i - factor >= 0) {
-                    possiblyRepeatedPart = line.substring(i);
-                    possiblyEqualStr = line.substring(i - factor, i);
-                    
-                    if (possiblyEqualStr.equals(possiblyRepeatedPart)) {
-                        longestRepeatedStr = possiblyEqualStr;
+        while(scanner.hasNext()) {
+            String input = scanner.nextLine();
+            Integer limit = (int) Math.floor(input.length() / 2);
+            Integer end = input.length();
+            Integer aux = 0;
+            if(input.length() == 1) {
+                System.out.println(input);
+            } else if (limit >= 1) {
+                for (int i = limit; i >= 1; i--) {
+                    if(input.substring(end-i, end).equals(input.substring(end-(2*i),end-i))) {
+                        aux = i;
+                        System.out.println(input.substring(0, (end - aux)));
+                    } else if (limit == 1) {
+                        System.out.println(input);
                     }
                 }
+                if(limit>1 && aux == 0) System.out.println(input);
             }
-            
-            String originalString = longestRepeatedStr;
-
-            if (longestRepeatedStr.length() < line.length()) {
-                int longestRepeatedStrLength = longestRepeatedStr.length();
-                int firstRepetitionIndex = line.length() - longestRepeatedStrLength;
-
-                for (int i = line.length() - (longestRepeatedStrLength * 2); i
-                        - longestRepeatedStrLength >= 0; i -= longestRepeatedStrLength) {
-                    if (line.substring(i - longestRepeatedStrLength, i).equals(longestRepeatedStr)) {
-                        firstRepetitionIndex = i;
-                    }
-                }
-                originalString = line.substring(0, firstRepetitionIndex);
-            }
-            System.out.println(originalString);
-        }
-        scanner.close();
-    }
+        }scanner.close();
+    }   
 }
+
